@@ -1,0 +1,510 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsl(218, 28%, 13%);
+    height: 8vh;
+}
+
+.logo img{
+    width: 80px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.logo p{
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.links li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: 'Raleway',
+    sans-serif;
+    transition: .5s;
+}
+nav ul li a:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(218, 28%, 13%);
+    border-radius: 1rem;
+    padding: 5px;
+}
+
+/* ---------main-------- */
+main{
+    background-color: hsl(218, 28%, 13%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+main img{
+    display: block;
+    margin: auto;
+    margin-top: 10%;
+    width: 20%;
+}
+main h1{
+    color: hsl(0, 0%, 100%);
+    width: 30%;
+    text-align: center;
+    font-family: 'Raleway',
+    sans-serif;
+    font-weight: 700;
+    margin-top: 5%;
+    
+}
+main p{
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    width: 50%;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 400;
+    font-family: 'Raleway',
+    sans-serif;
+}
+main .btn{
+    margin-top: 50px;
+    padding: 10px 30px;
+    background-color: hsl(176, 68%, 64%);
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Raleway',
+    sans-serif;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: .5s;
+
+}
+main .btn:hover{
+    background-color: hsl(176, 68%, 30%);
+    transform: translateY(-5px);
+}
+
+/* -----services------ */
+#services{
+    background-color: hsl(218, 28%, 13%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.service{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+.service img{
+    margin-top: 15%;
+}
+.service h1{
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    font-family: 'Raleway',
+        sans-serif;
+    font-weight: 700;
+    margin-top: 20px;
+
+}
+.service p {
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 400;
+    font-family: 'Raleway',
+        sans-serif;
+}
+
+
+/* -----------Details----------- */
+
+#Details {
+    background-color: hsl(218, 28%, 13%);
+    padding-left: 10%;
+
+}
+
+#Details img{
+    padding-top: 20%;
+    width: 30%;
+    display: block;
+    margin: auto;
+}
+#Details h1{
+    text-align: left;
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    font-family: 'Raleway',
+    sans-serif;
+    margin-top: 10%;
+    width: 70%;
+}
+#Details p{
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    text-align: left;
+    width: 70%;
+    font-family: 'Raleway',
+    sans-serif;
+    
+}
+.FyloLink{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid hsl(176, 68%, 64%);
+   
+}
+.FyloLink a {
+    text-decoration: none;
+    color: hsl(176, 68%, 64%);
+    font-size: 14px;
+    font-family: 'Raleway',
+        sans-serif;
+    position: relative;
+}
+
+#Details .FyloLink img {
+    width: 25px;
+    padding-left: 20px;
+}
+
+
+
+/* ---------Testimonials-------- */
+.testimonial-logo{
+    background-color: hsl(218, 28%, 13%);
+    padding-left: 15%;
+}
+#Testimonials {
+    background-color: hsl(218, 28%, 13%);
+    display: flex;
+    padding-bottom: 50%;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+.testimonial-logo img{
+    margin-top: 10%;
+    
+}
+.testimonial-container{
+    width: 20%;
+    background-color: hsl(219, 30%, 18%);
+    color: hsl(0, 0%, 100%);
+    padding:50px 20px;
+    border-radius: 1rem;
+    margin: 10px 20px;
+    
+}
+.testimonial-container p{
+    font-size: 14px;
+    line-height: 1.3rem;
+    font-family: 'Raleway',
+    sans-serif;
+}
+.profile-user{
+    display: flex;
+    margin-top: 5%;
+    align-items: center;
+}
+.name{
+   
+    padding: 15px;
+}
+.profile-user img{
+    width: 15%;
+    border-radius: 100%;
+}
+
+
+/* ---------signUp--------- */
+#signUp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: hsl(218, 28%, 13%);
+    margin-top: -35%;
+}
+.signUp-container{
+    width: 25%;
+    background-color: hsl(219, 30%, 18%);
+    padding: 50px;
+    font-family: 'Raleway',
+    sans-serif;
+    border-radius: 1rem;
+    position: relative;
+    z-index: 1;
+}
+.signUp-container h2{
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    font-weight: 700;
+}
+.signUp-container p{
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    margin-top: 30px;
+}
+.form{
+    width: 100%;
+    display: block;
+    margin-top: 5px;
+}
+.form input {
+    margin-top: 30px;
+    width: 95%;
+    padding: 13px;
+    border-radius: 2rem;
+}
+.form .signUp-button{
+    width: 100%;
+    padding: 10px;
+    background-color: hsl(176, 68%, 64%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 2rem;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.form .signUp-button:hover{
+    background-color: hsl(176, 68%, 30%);
+}
+
+
+/* ---------footer------------- */
+
+footer{
+    background-color: hsl(216, 53%, 9%);
+    position: absolute;
+    width: 100%;
+    transform: translateY(-20%);
+}
+.footer-logo img{
+    padding-top: 50%;
+    margin: 20px;
+}
+.footer-display{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: space-around;
+    padding-bottom: 5%;
+}
+ 
+.location{
+    width: 25%;
+}
+.location p img{
+    padding-right: 10px;
+}
+.location p{
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    font-family: 'Raleway',
+    sans-serif;
+    line-height: 1rem;
+}
+.direct-contact p img{
+    padding-right: 10px;
+}
+.direct-contact p{
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    font-family: 'Raleway',
+    sans-serif;
+}
+
+.aboutus,.contactus{
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    font-family: 'Raleway',
+    sans-serif;
+}
+.aboutus,.contactus, ul li{
+    list-style: none;
+    cursor: pointer;
+    line-height: 2rem;
+}
+
+
+
+.footer-social-icons img{
+    width: 20px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+    transition: .5s;
+}
+.footer-social-icons img:hover{
+    transform: translateY(-5px);
+}
+
+/* ----------------media queries----------- */
+@media (max-width: 768px){
+    .FyloLink{
+        width: 40%;
+        align-items: center;
+    }
+    main img {
+        width: 50%;
+    }
+    main h1 {
+        width: 80%;
+    }
+    
+    main p {
+        width: 80%;
+        padding: 20px 20px;
+    }
+    .service img{
+        margin-top: 60%;
+    }
+    #Details img{
+        width: 50%;
+    }
+    #Testimonials{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .testimonial-logo img{
+        width: 30px;
+        padding-left: 10%;
+    }
+    .testimonial-container{
+        width: 50%;
+    }
+    nav ul li a {
+        font-size: 14px;
+    }
+    .signUp-container{
+        width: 50%;
+    }
+    .footer-display{
+        flex-direction: column;
+        margin-left: -10%;
+    }
+    .location {
+        width: 50%;
+    }
+   
+    .direct-contact{
+        margin-top: 5%;
+        width: 50%;
+    }
+    .aboutus,.contactus{
+        margin-top: 5%;
+        width: 50%;
+    }
+    
+    .footer-social-icons {
+        margin-left: 30%;
+    }
+   
+}
+    
+@media (max-width:375px) {
+  
+    .FyloLink {
+        width: 55%;
+    }
+    nav ul li a{
+        font-size: 14px;
+    }
+    footer{
+        transform: translateY(-10%);
+    }
+    
+}
+@media (min-width: 700px) {
+    footer{
+        transform: translateY(-20%);
+        
+    }
+    .footer-logo img{
+        margin-top: -30%;
+    }
+    
+}
+
+
+@media(min-width: 1440px) {
+    main>h1{
+        width: 30%;
+    }
+    main>p{
+        width: 40%;
+        font-size: 20px;
+        opacity: .8;
+    }
+    
+    .service-desktop-display{
+       display: flex;
+        flex-wrap: wrap;
+    }
+    .service{
+        width: 40%;
+    }
+    .service p{
+        font-size: 20px;
+        font-weight: 400;
+        opacity: .8;
+    }
+
+    #Details{
+        display: flex;
+        padding-top: 10%;
+    }
+    #Details .details-img img{
+        width: 50%;
+    }
+    #Details .details-info .FyloLink{
+        width: 25%;
+    }
+
+    .signUp-container{
+        width: 50%;
+    }
+    .form{
+        display: flex;
+    }
+    .form .signUp-button{
+        width:30%;
+        padding-left: 10px;
+    }
+    .form > input{
+        width: 80%;
+    }
+    
+}
